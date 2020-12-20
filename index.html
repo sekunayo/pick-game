@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <title>Pig Game</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="player-big-container">
+            <div class="player-container player-0-container non-active-player">
+                <div class="player-inner-container">
+                    <p class="player-name">Player 1</p>
+                    <p class="score-0 score">0</p>
+                    <button class="current-score-button">
+                        <p class="button-header">Current</p>
+                        <p class="current-score-0">0</p>
+                    </button>
+                </div>
+            </div>
+            <div class="active-player player-1-container player-container">
+                <div class="player-inner-container">
+                    <p class="player-name">Player 2</p>
+                    <p class="score-1 score">0</p>
+                    <button class="current-score-button">
+                        <p class="button-header">Current</p>
+                        <p class="current-score-1">0</p>
+                    </button>
+                </div>
+            </div>
+            <div class="positioned-elements">
+                <button class="new-game position-button-style">🔄 New Game</button>
+                <div class="image-container">
+                    <img src="images/dice-1.png" alt="" srcset="" class="dice-image hidden">
+                </div>
+                <button class="roll-dice position-button-style">🎲 Roll Dice</button>
+                <button class="Hold position-button-style">📥 Hold</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <p>Please check this project on a Laptop or Desktop.</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
